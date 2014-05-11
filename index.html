@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style>
+    body { 
+      color: #333;
+      font-size: 17px;
+      font-family: "adelle-sans", Helvetica, Arial, sans-serif; 
+      line-height: 1.4em; 
+      -webkit-font-smoothing: antialiased;
+      padding-top: 40px;  
+      margin-bottom: 40px;
+    }
+    a { color: #3c947f; font-weight: bold; text-decoration: none; }
+    h1 { font-size: 24px; line-height: 24px; }
+    h3 { font-size: 17px; line-height: 17px; color: #f60; margin-bottom: -10px; }
+    .container {
+      width: 600px; 
+      margin: 40px auto 40px auto;
+      padding: 20px 3%;
+      background: rgba(255,255,255,0.7);
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+      text-align: center;
+	   }
+     .container:after {
+      content: "."; 
+      visibility: hidden; 
+      display: block; 
+      height: 0; 
+      clear: both;
+     }
+     .logo { margin-top: -76px; }
+     .sbt,.sbh {
+      float: left;
+      width: 46.9%;
+      font-size: 15px;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+     }
+     .sbt { 
+      border-right: 1px solid rgba(0,0,0,0.5);
+      padding-right: 3%;
+     }
+     .sbh {
+      padding-left: 3%;
+     }
+     ul { 
+      list-style: none;
+      padding: 0;
+      margin: 0;
+     }
+     .btn {
+      margin: -50px auto 0 auto;
+      text-align: center;
+     }
+     .btn a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      clear: both;
+      background-color: #72c5b1;
+      padding: 20px 40px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+      border-bottom: 4px solid #b2dcd2;
+     }
+     .btn a:hover {
+      background-color: #52a18e;
+     }
+     .btn a:active {
+      position: relative;
+      top: 4px;
+      border-bottom: none;
+     }
+     .elsewhere {
+      margin-bottom: 40px; 
+      margin: 60px auto 0 auto;
+      text-align: center;
+     }
+     .elsewhere a {
+      color: white;
+      font-size: 15px;
+      padding: 6px 12px 7px;
+      border: 2px solid;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      margin: 0 10px;
+      -webkit-transition: .2s linear background-color;
+     }
+     .elsewhere a:hover { 
+      color: white;
+      background-color: #52a18e;
+      border: 2px solid #52a18e;
+     }
+     @media (max-width: 767px) { 
+      .container { width: 90%; }
+      .sbt,.sbh { width: 100%; float: none; padding: 0; border: 0; }
+    }
+	</style>
+  <script type="text/javascript" src="http://use.typekit.net/hks5jee.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+</head>
+<body>
+  <div class="container">
+
+    <img class="logo" src="rollcall-logo.png">
+
+    <p>Roll Call is a cycling social club dedicated to promoting camaraderie on the roads (and off) in and around San Francisco. We ride twice a week:</p>
+
+    <div class="sbt">
+      <p><img src="ride-sanbruno.png" /></p>
+      <h3>Tuesdays</h3>
+      <h1>San Bruno Mountain</h1>
+      <ul>
+        <li>6:40am Ritual Coffee on Valencia</li>
+        <li>San Bruno Mountain summit</li>
+        <li>~8:15am Blue Bottle at Heath</li>
+      </ul>
+    </div>
+
+    <div class="sbh">
+      <p><img src="ride-headlands.png" /></p>
+      <h3>Thursdays</h3>
+      <h1>Marin Headlands</h1>
+      <ul>
+        <li>6:40am Fell &amp; Baker/Panhandle</li>
+        <li>Marin Headlands loop</li>
+        <li>~8:15am Rapha Cycle Club</li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+  <div class="btn">
+    <a href="">Join Us / Stay Updated</a>
+  </div>
+
+
+    <p class="elsewhere">
+      <a href="http://twitter.com/rollcallsf">Twitter</a><a href="http://www.strava.com/clubs/roll-call">Strava</a><a href="http://instagram.com/rollcallsf">Instagram</a>
+    </p>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="jquery.backstretch.min.js"></script>
+	<script>
+    $.backstretch([
+          "02.jpg",
+          "01.jpg",
+          "03.jpg",
+          "04.jpg",
+          "05.jpg",
+          "07.jpg",
+          "08.jpg",
+          "09.jpg",
+          "10.jpg",
+          "11.jpg",
+          "12.jpg"
+        ], {
+            fade: 750,
+            duration: 4000
+        });
+    </script>
+</body>
+</html>
